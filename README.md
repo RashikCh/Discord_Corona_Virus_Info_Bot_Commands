@@ -6,7 +6,7 @@ Corona Virus Agg Redit Data Example Format
 
 ![Image description](https://puu.sh/FmEzw/e64f161ae7.png)
 
-Data source: https://docs.google.com/spreadsheets/d/1qQ2IovoB76jHiGCVx8VwKBRW4Wa_5rugyVK8bT8WArc/edit#gid=176307533
+Data source: https://docs.google.com/spreadsheets/d/1qQ2IovoB76jHiGCVx8VwKBRW4Wa_5rugyVK8bT8WArc/
 
 Thank you to the people who work hard to keep this updated. 
 ---------
