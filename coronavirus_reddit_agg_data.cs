@@ -1,4 +1,16 @@
-        public async Task getCoronaInfoGoogle()
+ //You will need the following usings, all ontainable from nugget. 
+using Google.Apis.Sheets.v4;
+using Google.Apis.Services;
+using Google.Apis.Sheets.v4.Data;
+using Google.Apis.Auth.OAuth2;
+using System.IO;
+using System.Threading;
+using Google.Apis.Util.Store;
+using Microsoft.EntityFrameworkCore.Internal;
+
+
+
+       public async Task getCoronaInfoGoogle()
         {
             //Most of this code was provided by google, they have speicific OAuth2 requirements for accessing their data. 
             //I'm not sure if reverifcation is always needed but this works. 
