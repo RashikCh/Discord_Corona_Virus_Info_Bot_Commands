@@ -9,4 +9,6 @@ Corona Virus Agg Redit Data Example Format
 Data source: https://docs.google.com/spreadsheets/d/1qQ2IovoB76jHiGCVx8VwKBRW4Wa_5rugyVK8bT8WArc/
 
 Thank you to the people who work hard to keep this updated. 
+
+and that was short lived because they're not updating this anymore and pointed to bad data sources. Looking for alts. 
 ---------
