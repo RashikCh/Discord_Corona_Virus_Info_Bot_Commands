@@ -22,12 +22,6 @@ public async Task getCoronaInfo3()
                 if (index >= 14) break;
             }
             results +=  Environment.NewLine + "** ------------------------------- **" + Environment.NewLine + Environment.NewLine + "Source: https://github.com/NovelCOVID/API";
-            var embed = new EmbedBuilder();
-            embed.WithColor(Config.bot.DefaultEmbedColour);
-            embed.WithAuthor("## Current Corona Virus Info v3.6 ##");
-            embed.WithDescription(results);
-            DateTimeOffset lastupdatedstring = DateTimeOffset.FromUnixTimeMilliseconds((long)jdataALL["updated"]);
-            embed.WithFooter("Data Last Updated @ : " + lastupdatedstring.UtcDateTime.ToLocalTime().ToString() + " EST");
-            await Helpers.SendMessage(Context, embed);
+            return results;
 
         }
